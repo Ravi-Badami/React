@@ -1,6 +1,7 @@
 import {useReducer} from "react";
 import Practice from './practice/Practice.jsx'
 import CounterWithStep from './counterWithStep.jsx'
+import TrafficLight from './TrafficLight.jsx'
 
 
 const initialState={count:0};
@@ -37,7 +38,7 @@ const handleReset =()=>{
 {/*         <button onClick={handlerIncrement}>Add</button> */}
 {/*         <button onClick={handlerDecrement}>minus</button> */}
 {/*         <button onClick={handleReset}>Reset</button> */}
-        <CounterWithStep/>
+        <TrafficLight/>
         </>
         )
     }
