@@ -6,3 +6,5 @@
 //
 // Goal: Calculate total inside the reducer on each action.
 //
+
+

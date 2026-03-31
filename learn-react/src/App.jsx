@@ -14,15 +14,15 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 // import UseRef from './To-Do list/Hooks/useRef/index.jsx'
 // import StopWatch from './To-Do list/Hooks/StopWatch/index.jsx'
-import ThemeSwitcher from './To-Do list/Hooks/ThemeSwitcher/index.jsx'
+// import ThemeSwitcher from './To-Do list/Hooks/ThemeSwitcher/index.jsx'
+import UseMemo from './To-Do list/Hooks/useMemo/index.jsx'
 
 import UseReducer from './To-Do list/Hooks/useReducer/counter.jsx'
 const queryClient = new QueryClient();
 
 function App() {
   return (
-<UseReducer/>
-
+<UseMemo/>
 //         <QueryClientProvider client={queryClient}>
 //     <WeatherApp/>
 //     </QueryClientProvider>
