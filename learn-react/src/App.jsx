@@ -18,13 +18,17 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 // import UseMemo from './To-Do list/Hooks/useMemo/index.jsx'
 // import UseReducer from './To-Do list/Hooks/useReducer/counter.jsx'
 
-import Greeting from './To-Do list/Components/FunctionalComponent'
+// import Greeting from './To-Do list/Components/FunctionalComponent'
+import Greeting from './To-Do list/Components/ClassComponents'
+
+import MainOther from './Routing/Main'
 
 const queryClient = new QueryClient();
 
 function App() {
   return (
-<Greeting/>
+    <MainOther/>
+
 //         <QueryClientProvider client={queryClient}>
 //     <WeatherApp/>
 //     </QueryClientProvider>
