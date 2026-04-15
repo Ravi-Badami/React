@@ -19,15 +19,17 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 // import UseReducer from './To-Do list/Hooks/useReducer/counter.jsx'
 
 // import Greeting from './To-Do list/Components/FunctionalComponent'
-import Greeting from './To-Do list/Components/ClassComponents'
+// import Greeting from './To-Do list/Components/ClassComponents'
 
+
+import HOCWithBorder from './Components/HOC/WithBorder'
 import MainOther from './Routing/Main'
 
 const queryClient = new QueryClient();
 
 function App() {
   return (
-    <MainOther/>
+    <HOCWithBorder name={'ravi badami'}/>
 
 //         <QueryClientProvider client={queryClient}>
 //     <WeatherApp/>

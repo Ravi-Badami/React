@@ -16,8 +16,6 @@ const navigate=useNavigate();
     function handleOnClick(){
         navigate(`/dynamic/${inputValue}`);
         }
-
-
   return (
       <>
       <Link to='/footer' >
